@@ -1,0 +1,47 @@
+.c-con {
+  background-color: #fff;
+  margin-left: 26%;
+  margin-top: 4%;
+  width: 40rem;
+  height: 31rem;
+  border: solid 4px rgba(255, 184, 0, 1);
+}
+.in {
+  display: flex;
+  margin-bottom: 15px;
+  width: 250px;
+  height: 40px;
+  padding-left: 2%;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+}
+.head-0 {
+  text-align: center;
+  color: rgba(52, 52, 52, 1);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 3%;
+}
+.inpu {
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+.in:focus {
+  outline: none;
+}
+.in1 {
+  width: 259px;
+  height: 40px;
+  background-color: rgba(255, 184, 0, 1);
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+}
+.in2 {
+  width: 200px;
+  height: 20%;
+}

@@ -1,0 +1,54 @@
+.card1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 6%;
+  margin-top: 10%;
+}
+.card {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.card:hover {
+  transform: scale(0.9);
+  background-color: #fff;
+}
+.img0 {
+  width: 150px;
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bottom {
+  margin-top: 20%;
+  margin-left: 5%;
+  /* background-color: red;
+  width: 150px;
+  height: 100px; */
+}
+.amount {
+  margin-top: -15%;
+}
+.box-1 {
+  background-color: red;
+  width: 350px;
+  display: flex;
+  margin-bottom: 30px;
+  background: #fff;
+  box-shadow: 0px 3.545243501663208px 17.72621726989746px 0px
+    rgba(0, 0, 0, 0.08);
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 20px;
+  background-image: url("./asserts/cart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: 30px 30px;
+  cursor: pointer;
+  margin-top: -100%;
+  margin-left: 70%;
+}
